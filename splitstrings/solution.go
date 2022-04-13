@@ -1,4 +1,4 @@
-package main
+package splitstings
 
 func Solution(str string) (result []string) {
 	if len(str)%2 != 0 {
