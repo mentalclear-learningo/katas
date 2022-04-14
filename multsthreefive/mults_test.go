@@ -11,4 +11,7 @@ var _ = Describe("Mults", func() {
 	It("should handle basic cases", func() {
 		Expect(Multiple3And5(10)).To(Equal(23))
 	})
+	It("should handle basic cases", func() {
+		Expect(Multiple3And5(16)).To(Equal(60))
+	})
 })
