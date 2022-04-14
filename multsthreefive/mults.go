@@ -14,7 +14,7 @@ package multsthreefive
 // 	return
 // }
 
-// After all the kata wasn't checking for negative numbers.
+// Actually this gives 0 for negatives as well
 
 func Multiple3And5(number int) (sum int) {
 	for i := 1; i < number; i++ {
