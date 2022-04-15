@@ -1,9 +1,14 @@
 package bitcounting
 
 import (
+	"math/bits"
 	"strconv"
 	"strings"
 )
+
+func CountBitsSimplified(n uint) int {
+	return bits.OnesCount(n)
+}
 
 func CountBits(n uint) (count int) {
 	str := strconv.FormatInt(int64(n), 2)
