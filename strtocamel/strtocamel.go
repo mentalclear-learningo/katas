@@ -12,8 +12,8 @@ func ToCamelCase(s string) string {
 	// slicing words[1:] to use range starting from the 2nd word
 	for i, w := range words[1:] {
 
-		// Changing value in the existing slice to start with capitla letter,
-		// +1 needed because index is now moved now due to words[1:]
+		// Changing value in the existing slice to start with capital letter,
+		// +1 needed because index is now moved due to words[1:]
 		words[i+1] = strings.Title(w)
 	}
 
