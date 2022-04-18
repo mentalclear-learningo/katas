@@ -11,14 +11,14 @@ import (
 
 var _ = Describe("Example tests", func() {
 	arr := [...][2]string{
-		//{"man i need a taxi up to ubud", "taxi"},
-		//{"what time are we climbing up the volcano", "volcano"},
-		//{"take me to semynak", "semynak"},
-		//{"aa b", "aa"},
-		//	{"b aa", "b"},
+		{"man i need a taxi up to ubud", "taxi"},
+		{"what time are we climbing up the volcano", "volcano"},
+		{"take me to semynak", "semynak"},
+		{"aa b", "aa"},
+		{"b aa", "b"},
 		{"bb d", "bb"},
 		{"d bb", "d"},
-		//	{"aaa b", "aaa"},
+		{"aaa b", "aaa"},
 	}
 	for _, v := range arr {
 		var input = v[0]
